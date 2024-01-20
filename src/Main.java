@@ -24,9 +24,9 @@ public class Main {
         for (int i = 0; i < length; i++) {
             arr[i] = sc.nextInt();
         }
-        Array(arr);
+        array(arr);
     }
-    public static void Array(int[] arr){
+    public static void array(int[] arr){
         for (int i = 0; i < arr.length; i++) {
             if(arr[i] % 3 == 0){
                 System.out.println(arr[i]);
